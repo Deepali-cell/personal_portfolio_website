@@ -14,6 +14,7 @@ interface IconProps {
   className?: string;
   onClick?: () => void;
   disabled?: boolean;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
 }
 
@@ -29,6 +30,7 @@ function Icon({
   const iconSet = variant === "solid" ? HeroIconsSolid : HeroIcons;
   const IconComponent = iconSet[
     name as keyof typeof iconSet
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ] as React.ComponentType<any>;
 
   if (!IconComponent) {

@@ -19,6 +19,7 @@ interface AppImageProps {
   fallbackSrc?: string;
   loading?: "lazy" | "eager";
   unoptimized?: boolean;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any;
 }
 
@@ -74,6 +75,7 @@ const AppImage = memo(function AppImage({
   }, [className, isLoading, onClick]);
 
   const imageProps = useMemo(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const baseProps: any = {
       src: imageSrc,
       alt,

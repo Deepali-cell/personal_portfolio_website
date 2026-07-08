@@ -66,7 +66,7 @@ export default function ContactSection() {
 
             <p className="text-muted-foreground leading-relaxed">
               I am currently open to full-time opportunities, internships,
-              freelance work, and exciting collaborations. If you'd like to work
+              freelance work, and exciting collaborations. If you&apos;d like to work
               together or discuss a project, feel free to reach out.
             </p>
           </div>
