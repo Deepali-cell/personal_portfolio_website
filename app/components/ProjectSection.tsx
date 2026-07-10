@@ -19,7 +19,7 @@ interface Project {
 
 const projects: Project[] = [
              {
-               id:1m
+               id:1,
   title: "AI Assistant with Web Search & Document Intelligence",
   description:
     "A multi-agent AI platform that delivers ChatGPT-like conversations, intelligently performs web searches when required, and features a RAG-powered document chat system. Users can upload PDF documents and ask context-aware questions based on their content.",
@@ -32,7 +32,7 @@ const projects: Project[] = [
         tage:["React.js" , "Node.js" , "Express" , "Vector DB(pincone)" , "Rag"  , "LLM" , "LangChain" , "Tailwind CSS" , "Shadcn UI" , "Vector Embeddings"],
 },
   {
-    id: 1,
+    id: 2,
     title: "FitGen AI",
     description:
       "AI-powered fitness platform that creates personalized workout and nutrition plans based on user goals and fitness levels.",
@@ -45,7 +45,7 @@ const projects: Project[] = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: "TheaterHub",
     description:
       "A movie booking platform with authentication, seat selection, booking management, and responsive user experience.",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Deepali-cell/movie_booking_web",
   },
   {
-    id: 3,
+    id: 4,
     title: "CollabSpace",
     description:
       "Collaboration platform for managing projects, sharing resources, and improving teamwork with an intuitive dashboard.",
@@ -69,7 +69,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Deepali-cell/CollabSpace",
   },
   {
-    id: 4,
+    id: 5,
     title: "Prescripto",
     description:
       "Doctor appointment platform featuring Admin, Doctor, and Patient dashboards with appointment management.",
@@ -81,7 +81,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Deepali-cell/prescripto_web",
   },
   {
-    id: 5,
+    id: 6,
     title: "CareerHub",
     description:
       "Recruitment platform where employers can post jobs and candidates can search, apply, and manage applications.",
@@ -93,7 +93,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Deepali-cell/job-portal",
   },
   {
-    id: 6,
+    id: 7,
     title: "LearnSphere LMS",
     description:
       "Learning Management System with authentication, course management, lectures, and student learning workflows.",
