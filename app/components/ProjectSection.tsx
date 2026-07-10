@@ -18,6 +18,19 @@ interface Project {
 }
 
 const projects: Project[] = [
+             {
+               id:1m
+  title: "AI Assistant with Web Search & Document Intelligence",
+  description:
+    "A multi-agent AI platform that delivers ChatGPT-like conversations, intelligently performs web searches when required, and features a RAG-powered document chat system. Users can upload PDF documents and ask context-aware questions based on their content.",
+  githubUrl: "https://github.com/Deepali-cell/genai_practice",
+  liveUrl: "https://genai-practice.vercel.app/",
+  image: "/assets/ai.png",
+      imageAlt:
+      "Personal Ai Assistant for web searching and document searching",
+        featured:true,
+        tage:["React.js" , "Node.js" , "Express" , "Vector DB(pincone)" , "Rag"  , "LLM" , "LangChain" , "Tailwind CSS" , "Shadcn UI" , "Vector Embeddings"],
+},
   {
     id: 1,
     title: "FitGen AI",
