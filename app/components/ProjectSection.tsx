@@ -29,7 +29,18 @@ const projects: Project[] = [
       imageAlt:
       "Personal Ai Assistant for web searching and document searching",
         featured:true,
-        tage:["React.js" , "Node.js" , "Express" , "Vector DB(pincone)" , "Rag"  , "LLM" , "LangChain" , "Tailwind CSS" , "Shadcn UI" , "Vector Embeddings"],
+    tags: [
+    "React.js",
+    "Node.js",
+    "Express",
+    "Pinecone",
+    "RAG",
+    "LLM",
+    "LangChain",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Embeddings",
+  ],
 },
   {
     id: 2,
@@ -92,18 +103,18 @@ const projects: Project[] = [
     liveUrl: "https://job-portal-kohl-psi.vercel.app/",
     githubUrl: "https://github.com/Deepali-cell/job-portal",
   },
-  {
-    id: 7,
-    title: "LearnSphere LMS",
-    description:
-      "Learning Management System with authentication, course management, lectures, and student learning workflows.",
-    image: "/assets/learnSphere.png",
-    imageAlt:
-      "LearnSphere LMS with course catalog, video lectures, and student progress tracking",
-    tags: ["React", "Node.js", "MongoDB"],
-    liveUrl: "https://deepali-lms-qgqc.vercel.app/",
-    githubUrl: "https://github.com/Deepali-cell/Deepali-lms",
-  },
+  // {
+  //   id: 7,
+  //   title: "LearnSphere LMS",
+  //   description:
+  //     "Learning Management System with authentication, course management, lectures, and student learning workflows.",
+  //   image: "/assets/learnSphere.png",
+  //   imageAlt:
+  //     "LearnSphere LMS with course catalog, video lectures, and student progress tracking",
+  //   tags: ["React", "Node.js", "MongoDB"],
+  //   liveUrl: "https://deepali-lms-qgqc.vercel.app/",
+  //   githubUrl: "https://github.com/Deepali-cell/Deepali-lms",
+  // },
 ];
 
 export default function ProjectsSection() {
